@@ -14,7 +14,7 @@ import br.com.gerenciador.modelo.Banco;
 import br.com.gerenciador.modelo.Empresa;
 
 
-@WebServlet("/listaEmpresas")
+//@WebServlet("/listaEmpresas")
 public class ListaEmpresasServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
