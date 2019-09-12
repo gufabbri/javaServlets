@@ -12,3 +12,5 @@ public interface Acao {
 	String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException; 
 
 }
+	
+	
