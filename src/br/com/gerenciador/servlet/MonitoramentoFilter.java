@@ -7,7 +7,6 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
 
 //@WebFilter("/entrada")/*todas as requests vao passar pelo filtro*/
 public class MonitoramentoFilter implements Filter {
