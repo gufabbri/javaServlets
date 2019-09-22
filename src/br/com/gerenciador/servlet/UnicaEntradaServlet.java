@@ -28,10 +28,7 @@ public class UnicaEntradaServlet extends HttpServlet {
 //			response.sendRedirect("entrada?acao=LoginForm");
 //			return;
 //		}
-		
-		
-		
-		
+				
 		String nomeDaClasse = "br.com.gerenciador.acao." + paramAcao;
 		
 		//classe é uma referencia que aponta para algo na memoria que representa a classe
@@ -53,33 +50,7 @@ public class UnicaEntradaServlet extends HttpServlet {
 		}else {
 			response.sendRedirect(tipoEEndereco[1]);
 		}
-		
-		//paramAcao.executa(req,res)
-		
-		/*if(paramAcao.equals("ListaEmpresas")) {							
-			ListaEmpresas acao = new ListaEmpresas();
-			nome = acao.executa(request, response);			
-			
-		}else if(paramAcao.equals("RemoveEmpresa")) {			
-			RemoveEmpresa acao = new RemoveEmpresa();
-			nome = acao.executa(request, response);			
-			
-		} else if(paramAcao.equals("MostraEmpresa")) {			
-			MostraEmpresa acao = new MostraEmpresa();
-			nome = acao.executa(request, response);
-			
-		} else if(paramAcao.equals("AlteraEmpresa")) {			
-			AlteraEmpresa acao = new AlteraEmpresa();
-			nome = acao.executa(request, response);
-			
-		} else if(paramAcao.equals("NovaEmpresa")) {			
-			NovaEmpresa acao = new NovaEmpresa();
-			nome = acao.executa(request, response);	
-			
-		} else if(paramAcao.equals("NovaEmpresaForm")) {			
-			NovaEmpresaForm acao = new NovaEmpresaForm();
-			nome = acao.executa(request, response);			
-		}*/
+	
 		
 		
 	}
